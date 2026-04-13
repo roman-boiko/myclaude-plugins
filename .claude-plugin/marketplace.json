@@ -1,0 +1,27 @@
+{
+  "name": "dd-plugins",
+  "owner": {
+    "name": "Roman Boiko",
+    "email": "roman.boiko@gmail.com"
+  },
+  "metadata": {
+    "description": "Datadog plugins for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "dd-plugins",
+      "source": ".",
+      "description": "Datadog pricing estimation and technical expertise skills",
+      "version": "1.0.0",
+      "author": {
+        "name": "Roman Boiko",
+        "email": "roman.boiko@gmail.com"
+      },
+      "repository": "https://github.com/roman-boiko/myclaude-plugins",
+      "license": "MIT",
+      "category": "devops",
+      "tags": ["datadog", "pricing", "monitoring", "observability"]
+    }
+  ]
+}

@@ -4,9 +4,9 @@
   "description": "Datadog pricing estimation and technical expertise skills",
   "author": {
     "name": "Roman Boiko",
-    "email": "roman.boiko@datadoghq.com"
+    "email": "roman.boiko@gmail.com"
   },
-  "repository": "https://github.com/roman-boiko/mycalude-plugins",
+  "repository": "https://github.com/roman-boiko/myclaude-plugins",
   "license": "MIT",
   "keywords": ["datadog", "pricing", "monitoring", "observability"]
 }
