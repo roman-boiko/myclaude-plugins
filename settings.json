@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:docs.datadoghq.com)",
+      "WebFetch(domain:www.datadoghq.com)",
+      "WebFetch(domain:datadoghq.dev)",
+      "Bash(python3:*)"
+    ]
+  }
+}

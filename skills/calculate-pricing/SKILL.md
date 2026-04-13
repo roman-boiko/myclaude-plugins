@@ -39,7 +39,7 @@ If critical information is missing or ambiguous, ask the user BEFORE calculating
 Do NOT ask unnecessary questions if the user has provided sufficient detail.
 
 ### Step 3: Read and Parse Pricing Data
-- Read `ddprice.csv` from the repository root directory.
+- Read `${CLAUDE_PLUGIN_ROOT}/ddprice.csv` for current pricing information.
 - Parse the CSV data programmatically using Python code execution.
 - Match user requirements to the appropriate pricing line items.
 - Read [allotments.md](allotments.md) from this skill's directory for product allotment data. Subtract included allotments before pricing any overages.
@@ -85,7 +85,7 @@ Produce a clear, professional pricing estimate using this structure:
 ## Important Rules
 
 1. **Always use code for calculations** — never estimate or do arithmetic in your head. Even simple multiplications must go through code execution.
-2. **Always reference ddprice.csv** — do not rely on memorized pricing. If the CSV is unavailable, explicitly state this limitation.
+2. **Always reference `${CLAUDE_PLUGIN_ROOT}/ddprice.csv`** — do not rely on memorized pricing. If the CSV is unavailable, explicitly state this limitation.
 3. **Be transparent about assumptions** — clearly state any assumptions in the Notes section.
 4. **Use proper number formatting** — commas for thousands, two decimal places for currency, consistent units.
 5. **Include both monthly and annual views** when the user hasn't specified a preference.
