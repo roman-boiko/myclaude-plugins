@@ -11,7 +11,10 @@
   "plugins": [
     {
       "name": "dd-plugins",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "roman-boiko/myclaude-plugins"
+      },
       "description": "Datadog pricing estimation and technical expertise skills",
       "version": "1.0.0",
       "author": {
